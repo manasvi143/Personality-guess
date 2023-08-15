@@ -7,7 +7,6 @@ class CatagoryScreen extends StatelessWidget {
   const CatagoryScreen({super.key});
 
   void _switchQuesScreen(BuildContext context) {
-    print('Chipkli');
     Navigator.of(context).push(MaterialPageRoute(
       builder: (context) => QuestionScreen(),
     ));

@@ -16,7 +16,7 @@ const allCatag = [
       catg: Catagory.c4, colr: Color.fromARGB(255, 77, 11, 234), title: 'Blue'),
   CatagortType(
       catg: Catagory.c5,
-      colr: Color.fromARGB(255, 217, 232, 8),
+      colr: Color.fromARGB(255, 232, 228, 8),
       title: 'Yellow'),
   CatagortType(
       catg: Catagory.c6,

@@ -12,7 +12,6 @@ class CatagoryGridView extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        print('chhavi');
         onSelectedCatog(context);
       },
       borderRadius: BorderRadius.circular(16),
