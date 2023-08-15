@@ -3,7 +3,7 @@ import 'package:personality_guess/model/answer_format.dart';
 
 var questions = [
   Questionformat(
-    tile: 'Who is the person who knows all your secrets ',
+    tile: 'Who is the person who knows all your secrets ? ',
     answer: [
       Answer(
           image: Image.asset('assets/images/friends.jpg'), title: 'My friend'),

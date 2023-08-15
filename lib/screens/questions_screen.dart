@@ -7,7 +7,9 @@ class QuestionScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text('Choose Carefully..'),
+      ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
